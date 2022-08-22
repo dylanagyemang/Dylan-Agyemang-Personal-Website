@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @dylanagyemang
 - 👀 I’m interested in ...software engineering
-- 🌱 I’m currently learning ...python and java
+- 🌱 I’m currently learning ...python and javascript
 - 💞️ I’m looking to collaborate on ...
 - 📫 How to reach me ...dagyeman12@gmail.com
 
