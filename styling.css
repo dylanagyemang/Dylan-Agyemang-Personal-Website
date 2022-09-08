@@ -1,0 +1,9 @@
+* {
+    margin:none;
+    padding:none;
+    box-sizing: border-box;
+}
+h1,h2,h3{
+    color:rgb(67, 67, 166);
+    font-weight: 100;
+}
