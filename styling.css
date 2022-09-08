@@ -1,9 +1,30 @@
-* {
-    margin:none;
-    padding:none;
-    box-sizing: border-box;
-}
+
 h1,h2,h3{
     color:rgb(67, 67, 166);
     font-weight: 100;
+    font-family: 'Courier New', Courier, monospace;
+}
+span{
+    display: inline-flex;
+    align-content: space-between;
+}
+li{
+    display:list-item;
+    width:25%;
+}
+#skills{
+    align-content:center;
+    margin: 1rem;
+    border-top:1rem;
+}
+ul{
+    list-style: none;
+    list-style-position:inherit;
+}
+.container{
+    align-content: space-around;
+}
+.col{
+    margin: auto;
+    border-style: groove;
 }
