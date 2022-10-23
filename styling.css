@@ -7,11 +7,38 @@ h1,h2,h3{
 h4{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-body{
-    margin-top: auto;
-}
 .top{
     margin-top: 1rem;
+}
+ul li{
+    min-width: fit-content;
+}
+ul a:hover{
+    background-color: blueviolet !important;
+    border: .1rem solid #000 !important;
+}
+.side{
+    z-index: 1;
+    align-items:right;
+    position: fixed;
+    min-height: fit-content;
+    min-width: fit-content;
+    right: 0;
+    top: 25%;
+    background-color: azure;
+    border: .1rem solid #000;
+}
+#tbtn{
+    position: sticky;
+    top:0;
+    border-radius: .3rem;
+    border: .1rem solid white;
+    background-color: white;
+    bottom: 0;
+    left:1rem !important;
+    height: 2rem;
+    width: 2rem;
+    z-index: 1;
 }
 span{
     display: inline-flex;
