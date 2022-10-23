@@ -1,71 +1,62 @@
-
-h1,h2,h3{
-    color:rgb(67, 67, 166);
-    font-weight: 100;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.cover{
+    align-items: center;
+    max-height:100vh;
 }
-h4{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.h1{
+    text-align: center;
 }
-.top{
-    margin-top: 1rem;
+#top{
+    right: 0 !important;
+    padding: 0 !important;
+    display:grid;
+    place-items: left !important;
 }
-ul li{
-    min-width: fit-content;
-}
-ul a:hover{
-    background-color: blueviolet !important;
-    border: .1rem solid #000 !important;
-}
-.side{
-    z-index: 1;
-    align-items:right;
-    position: fixed;
-    min-height: fit-content;
-    min-width: fit-content;
-    right: 0;
-    top: 25%;
-    background-color: azure;
-    border: .1rem solid #000;
+.jumbotron{
+    max-width: 40%;
+    margin-left: -1;
 }
 #tbtn{
-    position: sticky;
-    top:0;
-    border-radius: .3rem;
-    border: .1rem solid white;
-    background-color: white;
-    bottom: 0;
-    left:1rem !important;
-    height: 2rem;
-    width: 2rem;
-    z-index: 1;
+    height: 2.5rem;
+    width: 2.5rem;
 }
-span{
-    display: inline-flex;
-    align-content: space-between;
-}
-nav{
-    display: flex;
-}
-li{
-    display:list-item;
-    width:25%;
-}
-#skills{
-    align-content:center;
-    margin: 1rem;
-    border-top:1rem;
+.side{
+    max-width: 10rem;
+    right: 0;
+    background-color: blanchedalmond;
+    border: .1rem solid black;
+    top: 25%;
+    position: fixed;
 }
 ul{
     list-style: none;
-    list-style-position:inherit;
+    border: .2rem solid rgba(92, 12, 177, 0);
 }
-.container{
-    align-content: space-around;
+.glyphicon{
+    position: fixed;
+    z-index: 1;
+    height: 5rem;
+    width: 10rem;
+    left:0;
+    bottom: 0;
 }
-.col-6{
-    border-style:inset;
+.overlay{
+    color: rgb(56, 56, 57);
+    opacity: .9;
 }
-.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
-    background-color: rgb(67, 67, 166) !important;
+.covername{
+    color: blanchedalmond;
+    text-shadow: 2px 2px #82394C;
+    text-decoration:wavy;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.lead{
+    color: blanchedalmond;
+    text-shadow: 2px 2px #82394C;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
