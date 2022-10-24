@@ -20,7 +20,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/dylanagyemang/Dylan-Agyemang-Personal-Website">
-    <img src="screenshot.jpg" alt="Logo">
+    <img src="me.jpg" alt="Logo">
   </a>
 
 <h3 align="center">Boxing Website</h3>
