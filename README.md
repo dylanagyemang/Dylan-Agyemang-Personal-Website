@@ -82,7 +82,6 @@
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-https://user-images.githubusercontent.com/105815142/197289235-df1ff6e4-40aa-4e7d-8cc8-f9e30619c8e8.mp4
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
