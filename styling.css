@@ -43,25 +43,36 @@
 .side{
     max-width: 6rem !important;
     right: 5vw !important;
-    background-color: blanchedalmond;
-    border: .1rem solid black;
     top: 100%;
     position:sticky !important;
     top:50%;
     z-index: 1;
+}
+#summary{
+    text-align: center;
+    top:0;
+    margin-top: 0;
+
+}
+.glyphicon img{
+    z-index: 1;
+    animation: updown 2s ease infinite;
+    position: absolute;
+    top: 41%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    height: 2.5rem;
+    width: 3rem;
 }
 .glyphicon{   
     position: absolute;
     top: 93vh;
     left: 89.9vw;
     transform: translate(-50%, -50%);
-    background-color: #82394C;
+    background-color: #D3B4A0;
+    border: .2rem solid rgba(92, 12, 177, 0);
     height: 5rem;
     width: 6rem;
-}
-ul{
-    list-style: none;
-    border: .2rem solid rgba(92, 12, 177, 0);
 }
 header span{
     position: fixed;
@@ -71,10 +82,6 @@ header span{
     width: 10rem;
     left:0;
     bottom: 0;
-}
-.overlay{
-    color: rgb(56, 56, 57);
-    opacity: .9;
 }
 .covername{
     color: blanchedalmond;
@@ -92,4 +99,45 @@ header span{
     top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+body{
+    min-height: 100vh;
+    display: flexbox;
+}
+nav{
+    padding: none;
+    max-width: fit-content;
+    min-height: fit-content;
+    z-index: 1;
+    top: 10%;
+    position: sticky;
+    transform: translate(50vw, 50vh);
+}
+.profileline{
+    display:inline-block;
+    width: 100%;
+}
+table tr:hover{
+    background-color: #986366;
+}
+table a:hover{
+    background-color: #986366;
+}
+table{
+    background-color: #D3B4A0;
+    border: .1rem solid #DC9EA1;
+}
+table a{
+    text-align: center;
+    background-color: #D3B4A0;
+    color: white !important;
+}
+ul li{
+    list-style: none;
+    max-width: 18rem;
+    align-content: center;
+    text-align: left;
+}
+ul li:hover{
+    background-color: #DC9EA1;
 }
