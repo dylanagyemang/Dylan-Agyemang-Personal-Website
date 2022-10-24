@@ -4,7 +4,7 @@ const observer = new IntersectionObserver((entries) => {
         if (entry.isIntersecting) {
             entry.target.classList.add('show');
         } else{
-            entry.target.classList.remove('show');
+            //entry.target.classList.remove('show');
         }
     });
 });
@@ -14,8 +14,11 @@ const observer = new IntersectionObserver((entries) => {
   }*/
 
 
-const sectionElements = document.querySelectorAll('sect');
+const sectionElements = document.querySelectorAll('.sect');
 sectionElements.forEach((el) => observer.observe(el));
+
+const hiddenElements = document.querySelectorAll('.hidden');
+hiddenElements.forEach((el) => observer.observe(el));
 
 var section = document.getElementsByClassName("sect");
 var nav = document.getElementsByClassName("nav-link");

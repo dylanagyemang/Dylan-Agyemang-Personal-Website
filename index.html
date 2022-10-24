@@ -23,18 +23,18 @@
         <a href="#summary" class="glyph">	
             <span class="glyphicon"><img class="chev" src="chevron-left-white.png"></span>
         </a>
-        <nav class="nav">
-            <div class="side" id="navbar">
-                <div class="navi">
-                    <table>
-                    <tr><td><a class="nav-item nav-link" href="#summary">Profile</a></td></tr>
-					<tr><td><a class="nav-item nav-link" href="#experience">Experience</a></td></tr>
-					<tr><td><a class="nav-item nav-link" href="#skills">Skills</a></td></tr>
-					<tr><td><a class="nav-item nav-link" href="#contact">Contact</a></td></tr>
-                    </table>
+        <div class="side nav" id="navbar">
+        <nav class="navi">
+                <div >
+                    <ul class="ulnav">
+                    <li><a class="navilink" href="#summary">Profile</a></li>
+					<li><a class="navilink" href="#experience">Experience</a></li>
+					<li><a class="navilink" href="#skills">Skills</a></li>
+					<li><a class="navilink" href="#contact">Contact</a></li>
+                    </ul>
                 </div>
-			</div>
 		</nav>
+        </div>
         <h2 id="summary">Profile</h2>
 		<p>Prospective developer learning several programming languages and frameworks. Currently most fluent in HTML/CSS, Javascript and Python</p>
 		<h2 id="experience"><i>Experience</i></h2>
@@ -47,7 +47,7 @@
         <div id='skills' class="row">
             <div class="col">
                 <h4>Technical Skills</h4>
-                <ul>
+                <ul class="skills">
                     <li>C/C++ &emsp;&emsp;<span><img src = "reception-2.svg"/></span></li>
 					<li>Python &emsp;&emsp;<span><img src = "reception-3.svg"/></span></li>
                     <li>Flask &emsp;&emsp;<span><img src = "reception-2.svg"/></span></li>
@@ -73,7 +73,7 @@
             </div>
             <div class="col">
                 <h4>Soft Skills</h4>
-                <ul>
+                <ul class="skills">
                     <li>Problem Solving<span><img src = "reception-3.svg"/></span></li>
 				    <li>Teamwork<span><img src = "reception-4.svg"/></span></li>
 				    <li>Flexibility<span><img src = "reception-4.svg"/></span></li>
