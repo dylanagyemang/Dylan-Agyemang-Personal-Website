@@ -12,28 +12,61 @@
     place-items: left !important;
 }
 .jumbotron{
-    max-width: 40%;
-    margin-left: -1;
+    max-width: 100vw;
+    margin-left: 0;
 }
+.jumbo{
+    left:0 !important;
+    max-width: 100% !important;
+}
+@keyframes updown {
+    0% {
+      transform: translateY(-50%);
+    }
+  
+    50% {
+      transform: translateY(0%);
+    }
+  
+    100% {
+      transform: translateY(-50%);
+    }
+  }
 #tbtn{
     height: 2.5rem;
     width: 2.5rem;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    animation: updown 2s ease infinite;
 }
 .side{
-    max-width: 10rem;
-    right: 0;
+    max-width: 6rem !important;
+    right: 5vw !important;
     background-color: blanchedalmond;
     border: .1rem solid black;
-    top: 25%;
-    position: fixed;
+    top: 100%;
+    position:sticky !important;
+    top:50%;
+    z-index: 1;
+}
+.glyphicon{   
+    position: absolute;
+    top: 93vh;
+    left: 89.9vw;
+    transform: translate(-50%, -50%);
+    background-color: #82394C;
+    height: 5rem;
+    width: 6rem;
 }
 ul{
     list-style: none;
     border: .2rem solid rgba(92, 12, 177, 0);
 }
-.glyphicon{
+header span{
     position: fixed;
     z-index: 1;
+    top: 0;
     height: 5rem;
     width: 10rem;
     left:0;
