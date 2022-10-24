@@ -26,16 +26,16 @@
 <h3 align="center">Boxing Website</h3>
 
   <p align="center">
-    My goal was to build my first website using Python, I decided to use the Flask framework to start. Still deciding on what features to add for more complexity.
+    My goal was to a personal website, I decided to stick with Javascript, HTML and CSS.
     <br />
-    <a href="https://github.com/dylanagyemang/Boxing-Website"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/dylanagyemang/Dylan-Agyemang-Personal-Website"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/dylanagyemang/Boxing-Website">View Demo</a>
+    <a href="https://github.com/dylanagyemang/Dylan-Agyemang-Personal-Website">View Demo</a>
     ·
-    <a href="https://github.com/dylanagyemang/Boxing-Website/issues">Report Bug</a>
+    <a href="https://github.com/dylanagyemang/Dylan-Agyemang-Personal-Website/issues">Report Bug</a>
     ·
-    <a href="https://github.com/dylanagyemang/Boxing-Website/issues">Request Feature</a>
+    <a href="https://github.com/dylanagyemang/Dylan-Agyemang-Personal-Website/issues">Request Feature</a>
   </p>
 </div>
 
@@ -151,7 +151,7 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 [license-url]: https://github.com/github_username/repo_name/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/dylan-agyemang-8a33b942/
-[product-screenshot]: website/static/screenshot.JPG
+[product-screenshot]: screenshot.jpg
 [Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
 [Next-url]: https://nextjs.org/
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
