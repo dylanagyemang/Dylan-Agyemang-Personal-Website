@@ -4,7 +4,7 @@ const observer = new IntersectionObserver((entries) => {
         if (entry.isIntersecting) {
             entry.target.classList.add('show');
         } else{
-            //entry.target.classList.remove('show');
+            entry.target.classList.remove('show');
         }
     });
 });
@@ -22,9 +22,9 @@ hiddenElements.forEach((el) => observer.observe(el));
 
 var section = document.getElementsByClassName("sect");
 var nav = document.getElementsByClassName("nav-link");
-console.log(nav.value)
+console.log(nav)
 
-if (section.hasAttribute("show")){
+//if (section.hasAttribute("show")){
     //if nav.innerHTML == 
 
-}
+//}
