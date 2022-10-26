@@ -96,15 +96,13 @@
     width: fit-content;
     z-index: 1;
     margin-left:85vw ;
-    border:.1rem solid red;
     column-span: all;
 }
 
 .navi{
     display: block;
     background-color: #D3B4A0;
-    border-left:.1rem solid #82394C;
-    border-right: .1rem solid #82394C;
+    border-radius: .2rem;
     margin:0;
     padding: 0;
 }
@@ -151,7 +149,9 @@ p{
     margin-right:15vw;
     border:.1rem solid black !important;
 }
-
+h2, h4{
+    margin-right: 15vw;
+}
 .soft{
     transform: translate(0,-10.3%);
 }
@@ -196,6 +196,7 @@ body{
 .profileline{
     display:grid !important;
 }
+
 .skills li{
     list-style: none;
     max-width: 18rem;
@@ -207,4 +208,7 @@ ul{
 }
 ul li:hover{
     background-color: #DC9EA1;
+}
+p{
+    margin: 2rem;
 }
