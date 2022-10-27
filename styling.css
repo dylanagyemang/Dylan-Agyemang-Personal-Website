@@ -231,8 +231,9 @@ hr{
     width: 30vw !important;
     align-items: start !important;
 }
-.about{
+.col{
     display: block;
+    justify-content: center;
 }
 .about p{
     max-width: 30% !important;
