@@ -204,7 +204,9 @@ body{
     background-color: #2A202A !important;
     color: azure !important;
 }
-
+.profilerow{
+    max-width: 100vw !important;
+}
 .profileline{
     display:grid !important;
     transform: translateY(-50vh);
